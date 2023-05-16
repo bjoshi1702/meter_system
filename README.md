@@ -30,7 +30,7 @@ This is meter system project.
         - optional value (takes default value if user has not selected anything)
         - Select the value from dropdown (sum / max / unique_count)
   - Sumbit button: It will make a POST call and will get redirected to Meter List page and changes will be visisble.
-  - Cancel button: IT will cancel the current operation and get redirected to Meter List page.
+  - Cancel button: It will cancel the current operation and get redirected to Meter List page.
  
 - Edit an existing meter
   - Edit form will populate the existing from fields.
