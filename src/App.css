@@ -1,0 +1,89 @@
+.container {
+  font-family: sans-serif;
+  padding: 40px;
+  width: 50%;
+}
+
+.meterTable {
+  border-collapse: collapse;
+}
+
+.caption {
+  font-size: large;
+  padding: 10px;
+}
+
+.meterTable td, .meterTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.meterTable tr:nth-child(even){background-color: #f2f2f2;}
+
+.meterTable tr:hover {background-color: #ddd;}
+
+.meterTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: hsl(156, 6%, 31%);
+  color: white;
+}
+
+.formContainer {
+  font-family: sans-serif;
+  width: 50%;
+  padding: 40px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 20%;
+  background-color: hsl(156, 6%, 31%);
+  color: white;
+  padding: 14px 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listContainer {
+  font-family: sans-serif;
+  padding: 40px;
+  width: 40%;
+}
+
+.list {
+  list-style: none;
+  display: table;
+}
+
+.listItem {
+  display: table-row;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.listHeading {
+  display: table-cell;
+  width: 50%; 
+  padding: 20px;
+}
+
+.listValue {
+  display: table-cell;
+  width: 50%; 
+}
